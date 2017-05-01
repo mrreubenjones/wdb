@@ -10,6 +10,34 @@ For more depth see: [webaim.org/techniques/tables/data](http://webaim.org/techni
 
 ### Example from Web Aim: Shelly's Daughters.
 
+<table>
+    <caption>Shelly's Daughters</caption>
+      <tbody><tr>
+        <td></td>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+        <th scope="col">Birthday</th>
+      </tr>
+      <tr>
+        <th rowspan="2" scope="row">by birth</th>
+        <th scope="row">Jackie</th>
+        <td>5</td>
+        <td>April 5</td>
+      </tr>
+      <tr>
+        <th scope="row">Beth</th>
+        <td>8</td>
+        <td>January 14</td>
+      </tr>
+      <tr>
+        <th scope="row">by marriage</th>
+        <th scope="row">Beth</th>
+        <td>8</td>
+        <td>January 14</td>
+      </tr>
+    </tbody>
+</table>
+
 ```html
 <table>
     <caption>Shelly's Daughters</caption>
@@ -36,5 +64,7 @@ For more depth see: [webaim.org/techniques/tables/data](http://webaim.org/techni
         <td>8</td>
         <td>January 14</td>
       </tr>
-    </tbody></table>
+    </tbody>
+</table>
 ```
+
